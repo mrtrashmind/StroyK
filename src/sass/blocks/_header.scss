@@ -1,0 +1,42 @@
+.header {
+    padding: 26px 31px;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr minmax(auto, 694px) minmax(auto, 143px);
+        column-gap: 20px;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        &-img {
+            margin-right: 8px;
+        }
+        &-text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 27px;
+        }
+    }
+
+    nav {
+        align-self: center;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 0;
+
+        font-size: 16px;
+        line-height: 19px;
+        color: var(--text-color);
+        list-style-type: none;
+    }
+    .hamburger {
+        display: none;
+    }
+}

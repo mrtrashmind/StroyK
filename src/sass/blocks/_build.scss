@@ -1,0 +1,24 @@
+.build {
+    margin-top: 142px;
+    &__descr {
+        margin-top: 16px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+
+        text-align: center;
+
+        color: var(--text-color);
+        p {
+            margin-bottom: 0;
+        }
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 144px;
+    }
+}

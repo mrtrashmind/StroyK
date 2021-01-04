@@ -1,0 +1,32 @@
+:root {
+    --f-color: #212B31;    
+    --text-color: #72787D;
+    --background-text: #FFD042;
+}
+
+* {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1056px;
+    margin: 0 auto;
+}
+
+@import 'base/fonts.scss';
+@import 'libs/bootstrap-reboot.min.scss';
+
+@import 'blocks/title.scss';
+@import 'blocks/buttons.scss';
+@import 'blocks/header.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/build.scss';
+@import 'blocks/shipping.scss';
+@import 'blocks/whatis.scss';
+@import 'blocks/simple.scss';
+@import 'blocks/reliability.scss';
+@import 'blocks/demo.scss';
+@import 'blocks/work.scss';
+@import 'blocks/choice.scss';
