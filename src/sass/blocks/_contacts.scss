@@ -1,0 +1,20 @@
+.contacts {
+    padding-bottom: 150px;
+    &__wrapper {
+        padding: 117px 38px;
+
+        height: 466px;
+
+        background: url('../img/contacts.jpg') no-repeat 50%/cover;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 54px;
+        .button__contact {
+            background: var(--f-color);
+            color: #ffffff;
+        }
+    }
+}

@@ -16,16 +16,23 @@
         align-self: center;
 
         height: 34px;
+        width: 100%;
         
         font-size: 15px;
     }
 
     &__promo {
+        width: 166px;
         height: 50px;
+
+        margin-right: 16px;
         &-detail {
             display: flex;
             justify-content: center;
             align-items: center;
+
+            width: 143px;
+            height: 50px;
         }
     }
 
@@ -38,7 +45,7 @@
         height: 50px;
     }
 
-    &__demo, &__work {
+    &__demo, &__work, &__contact {
         width: 166px;
         height: 50px;
 
@@ -54,7 +61,7 @@
 
         color: var(--f-color);
 
-        &-detail {
+        &-detail, &-email {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -68,6 +75,11 @@
             line-height: 24px;
 
             color: #ffffff;
+        }
+        &-email {
+            width: 207px;
+            background: #ffffff;
+            color: var(--f-color);
         }
     }
 

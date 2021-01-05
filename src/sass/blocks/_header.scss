@@ -21,8 +21,12 @@
         }
     }
 
-    nav {
+    .menu {
         align-self: center;
+        &_close {
+            display: none;
+            visibility: hidden;
+        }
     }
 
     &__menu {
@@ -36,6 +40,12 @@
         color: var(--text-color);
         list-style-type: none;
     }
+
+    &__block {
+        grid-column: 3/4;
+        align-self: center;
+    }
+
     .hamburger {
         display: none;
     }

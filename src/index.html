@@ -33,11 +33,18 @@
                         <path d="M14.1191 11.484L14.6667 10.956L13.1511 12.2467V9.97333L14.6667 7.77333L16.1822 9.97333V12.2467L17.4925 13.3613V16.0013L20.5236 18.04V24.1707H22.9289L23.6622 26.4H20.5333H14.6667V14.2413V14.1093L16.5244 15.356V13.7427L14.6667 12.3053V11.0293L14.1191 11.484ZM14.1876 10.34L13.728 10.7653V11.6453L14.1876 11.2493V10.34ZM16.3484 17.0427L15.7618 16.72V18.612L16.3484 18.876V17.0427ZM16.3484 20.6213L15.7618 20.416V22.308L16.3484 22.44V20.6213ZM16.3484 24.4347L15.7618 24.376V26.2533H16.3484V24.4347ZM18.9005 26.2533H19.2916V24.7573L18.9005 24.7133V26.2533ZM18.9005 23.0413L19.2916 23.1293V21.6333L18.9005 21.5013V23.0413ZM18.9005 20.02L19.2916 20.196V18.7L18.9005 18.48V20.02ZM17.4533 26.2533H17.9325V24.6107L17.4533 24.552V26.2533ZM17.4533 22.704L17.9325 22.8213V21.1787L17.4533 21.0173V22.704ZM17.4533 19.3747L17.9325 19.5947V17.952L17.4533 17.688V19.3747ZM15.0676 11.264L15.5271 11.66V10.78L15.0676 10.3547V11.264Z" fill="#FFC22D"/>
                         <path d="M14.1191 11.484L13.1511 12.3053V12.2467L14.6667 10.9707L14.1191 11.484Z" fill="#FFC22D"/>
                         <path d="M25.4711 26.3267L3.91111 26.4L14.6667 42.5333L25.4711 26.3267Z" fill="#FFC22D"/>
-                        </svg>
+                    </svg>
                 </div>
                 <div class="header__logo-text">СТРОЙКОНТРОЛЬ</div>
             </div>
-            <nav>
+            <nav class="menu">
+                <div class="menu_close">
+                    <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+                            fill="white"></path>
+                    </svg>
+                </div>
                 <ul class="header__menu">
                     <li class="header__menu-item">Главная</li>
                     <li class="header__menu-item">О нас</li>
@@ -48,11 +55,13 @@
                     <li class="header__menu-item">Связаться с нами</li>
                 </ul>
             </nav>
-            <button class="button button__header">Заказать демо</button>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
+            <div class="header__block">
+                <button class="button button__header">Заказать демо</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </header>
@@ -787,10 +796,12 @@
                                 </defs>
                             </svg>
                         </div>
-                        <div class="title title_fz18 choice__item-title">Отмеченное наградами ПО</div>
-                        <div class="title title_fz16 choice__item-descr">Всемирно известное программное обеспечение,
-                            признанное государственными учреждениями, инновационными группами и техническими
-                            организациями</div>
+                        <div class="choice__item-text">
+                            <div class="title title_fz18 choice__item-title">Отмеченное наградами ПО</div>
+                            <div class="title title_fz16 choice__item-descr">Всемирно известное программное обеспечение,
+                                признанное государственными учреждениями, инновационными группами и техническими
+                                организациями</div>
+                            </div>
                         </div>
                     <div class="choice__item">
                         <div class="choice__item-img">
@@ -811,10 +822,12 @@
                                 </defs>
                             </svg>
                         </div>
-                        <div class="title title_fz18 choice__item-title">Большой потенциал</div>
-                        <div class="title title_fz16 choice__item-descr">Входит в топ-25 самых многообещающих стартапов
-                            ConTech по версии Cemex Ventures, Moscow Consulting Group, BuiltWorld и PwC</div>
+                        <div class="choice__item-text">
+                            <div class="title title_fz18 choice__item-title">Большой потенциал</div>
+                            <div class="title title_fz16 choice__item-descr">Входит в топ-25 самых многообещающих стартапов
+                                ConTech по версии Cemex Ventures, Moscow Consulting Group, BuiltWorld и PwC</div>
                         </div>
+                    </div>
                     <div class="choice__item">
                         <div class="choice__item-img">
                             <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
@@ -834,10 +847,12 @@
                                 </defs>
                             </svg>
                         </div>
-                        <div class="title title_fz18 choice__item-title">Выбор лидеров рынка</div>
-                        <div class="title title_fz16 choice__item-descr">Рекомендуемый поставщик технологий для 3 из 10
+                        <div class="choice__item-text">
+                            <div class="title title_fz18 choice__item-title">Выбор лидеров рынка</div>
+                            <div class="title title_fz16 choice__item-descr">Рекомендуемый поставщик технологий для 3 из 10
                             ведущих генеральных подрядчиков в Европе</div>
                         </div>
+                    </div>
                     <div class="choice__item">
                         <div class="choice__item-img">
                             <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
@@ -857,9 +872,11 @@
                                 </defs>
                             </svg>
                         </div>
-                        <div class="title title_fz18 choice__item-title">Устойчивое развитие и безопасность</div>
-                        <div class="title title_fz16 choice__item-descr">Способствует снижению выбросов CO2 и повышает
-                            безопасность на месте</div>
+                        <div class="choice__item-text">
+                            <div class="title title_fz18 choice__item-title">Устойчивое развитие и безопасность</div>
+                            <div class="title title_fz16 choice__item-descr">Способствует снижению выбросов CO2 и повышает
+                                безопасность на месте</div>                            
+                        </div>
                     </div>
                 </div>
                 <div class="choice__slider">
@@ -872,7 +889,7 @@
                         </svg>
                     </div>
                     <div class="choice__slide">
-                        <div class="choice__text">
+                        <div class="choice__slide-text">
                             Мы видим огромный потенциал в таких решениях, как СтройКонтроль, и хотим использовать их для
                             улучшения наших строительных процессов.
                         </div>
@@ -881,10 +898,14 @@
                                 <img src="img/author.jpg" alt="Автор">
                             </div>
                             <div class="choice__author-name">
-                                <p></p>
-                                <p></p>
+                                <p>Волков Матвей</p>
+                                <p>Генеральный директор ООО “СпецСтрой”</p>
                             </div>
                         </div>
+                    </div>
+                    <div class="choice__slider-dot">
+                        <span></span>
+                        <span class="dot-active"></span>
                     </div>
                 </div>
             </div>
@@ -916,5 +937,127 @@
             </div>
         </div>
     </section>
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="title title_fz48 contacts__title">Готовы оптимизировать логистику доставки для вашего
+                    сложного проекта?
+                </div>
+                <div class="contacts__buttons">
+                    <button class="button button__contact">Заказать демо</button>
+                    <button class="button button_white button__contact-email">Связаться с нами</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <div class="footer__logo-img">
+                            <svg width="22" height="33" viewBox="0 0 22 33" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11 1.551L1.03399 16.5L11 31.449L20.966 16.5L11 1.551ZM11 0L22 16.5L11 33L-5.72205e-06 16.5L11 0Z"
+                                    fill="#FFC22D" />
+                                <path d="M8.008 12.6387L7.02533 13.9587L6.61466 18.1387V13.5407L8.008 12.6387Z"
+                                    fill="#FFC22D" />
+                                <path
+                                    d="M10.5893 8.61328L9.31333 9.95528L8.88066 11.9903V10.0213L9.86333 9.18528V9.22928L10.5893 8.61328Z"
+                                    fill="#FFC22D" />
+                                <path d="M4.80332 18.1396H6.61465L4.95732 18.4476L4.25332 19.8006L4.80332 18.1396Z"
+                                    fill="#FFC22D" />
+                                <path d="M9.60667 11.5175V10.3075L11 9.22949V10.5825L9.60667 11.5175Z" fill="#FFC22D" />
+                                <path d="M10.1713 19.6902H9.73866V18.3262L10.1713 18.2822V19.6902Z" fill="#FFC22D" />
+                                <path d="M10.1713 16.7315L9.73866 16.8305V15.4665L10.1713 15.3125V16.7315Z"
+                                    fill="#FFC22D" />
+                                <path d="M10.1713 13.959L9.73866 14.157V12.782L10.1713 12.54V13.959Z" fill="#FFC22D" />
+                                <path d="M8.90999 19.6901H8.55799V18.4581L8.90999 18.4141V19.6901Z" fill="#FFC22D" />
+                                <path d="M8.90999 17.028L8.55799 17.105V15.873L8.90999 15.752V17.028Z" fill="#FFC22D" />
+                                <path d="M8.90999 14.5309L8.55799 14.6849V13.4529L8.90999 13.2549V14.5309Z"
+                                    fill="#FFC22D" />
+                                <path d="M7.82466 19.6902H7.53133V18.5682L7.82466 18.5352V19.6902Z" fill="#FFC22D" />
+                                <path d="M7.82466 17.281L7.53133 17.347V16.225L7.82466 16.126V17.281Z" fill="#FFC22D" />
+                                <path d="M7.82466 15.0154L7.53133 15.1474V14.0254L7.82466 13.8604V15.0154Z"
+                                    fill="#FFC22D" />
+                                <path
+                                    d="M10.5893 8.61308L11 8.21708L9.86332 9.18508V7.48008L11 5.83008L12.1367 7.48008V9.18508L13.1193 10.0211V12.0011L15.3927 13.5301V18.1281H17.1967L17.7467 19.8001H15.4H11V10.6811V10.5821L12.3933 11.5171V10.3071L11 9.22908V8.27208L10.5893 8.61308ZM10.6407 7.75508L10.296 8.07408V8.73408L10.6407 8.43708V7.75508ZM12.2613 12.7821L11.8213 12.5401V13.9591L12.2613 14.1571V12.7821ZM12.2613 15.4661L11.8213 15.3121V16.7311L12.2613 16.8301V15.4661ZM12.2613 18.3261L11.8213 18.2821V19.6901H12.2613V18.3261ZM14.1753 19.6901H14.4687V18.5681L14.1753 18.5351V19.6901ZM14.1753 17.2811L14.4687 17.3471V16.2251L14.1753 16.1261V17.2811ZM14.1753 15.0151L14.4687 15.1471V14.0251L14.1753 13.8601V15.0151ZM13.09 19.6901H13.4493V18.4581L13.09 18.4141V19.6901ZM13.09 17.0281L13.4493 17.1161V15.8841L13.09 15.7631V17.0281ZM13.09 14.5311L13.4493 14.6961V13.4641L13.09 13.2661V14.5311ZM11.3007 8.44808L11.6453 8.74508V8.08508L11.3007 7.76608V8.44808Z"
+                                    fill="#FFC22D" />
+                                <path d="M10.5893 8.61352L9.86333 9.22952V9.18552L11 8.22852L10.5893 8.61352Z"
+                                    fill="#FFC22D" />
+                                <path d="M19.1033 19.7451L2.93333 19.8001L11 31.9001L19.1033 19.7451Z" fill="#FFC22D" />
+                            </svg>
+                        </div>
+                        <div class="footer__logo-text">СТРОЙКОНТРОЛЬ</div>
+                    </div>
+                    <p class="title title_fz16">
+                        г. Москва
+                    </p>
+                    <p class="title title_fz16">
+                        Пресненская наб., 88, оф. 527
+                    </p>
+                    <a href="mailto:info@stroykontrol.ru" class="footer__email">info@stroykontrol.ru</a>
+                    <a href="tel:+7 (945) 123-45-67" class="footer__tel">+7 (945) 123-45-67</a>
+                    <a href="#" class="footer__fb">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 0C5.39999 0 0 5.40964 0 12.0723C0 18.0964 4.39199 23.0964 10.128 24V15.5663H7.07999V12.0723H10.128V9.40964C10.128 6.38554 11.916 4.72289 14.664 4.72289C15.972 4.72289 17.34 4.95181 17.34 4.95181V7.92771H15.828C14.34 7.92771 13.872 8.85542 13.872 9.80723V12.0723H17.208L16.668 15.5663H13.872V24C16.6997 23.5516 19.2746 22.103 21.1319 19.9157C22.9892 17.7284 24.0064 14.9466 24 12.0723C24 5.40964 18.6 0 12 0Z"
+                                fill="#73787C" fill-opacity="0.5" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="footer__menu">
+                    <div class="title title_fz16 footer__menu-title">Наш продукт</div>
+                    <ul>
+                        <li class="title title_fz16">
+                            <a href="#">
+                                Процесс
+                            </a>
+                        </li>
+                        <li class="title title_fz16">
+                            <a href="#">
+                                Продукция
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <div class="title title_fz16 footer__menu-title">Обслуживание</div>
+                    <ul>
+                        <li class="title title_fz16">
+                            <a href="#">
+                                Клиенты
+                            </a>
+                        </li>
+                        <li class="title title_fz16">
+                            <a href="#">
+                                Надёжность
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__menu">
+                    <div class="title title_fz16 footer__menu-title">Компания</div>
+                    <ul>
+                        <li class="title title_fz16">
+                            <a href="#">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="title title_fz16">
+                            <a href="#">
+                                Связаться с нами
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copywright">
+                <p class="title title_fz16">© 2020 СтройКонтроль, Все права защищены.</p>
+                <a href="#" class="title title_fz16 footer__policy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
