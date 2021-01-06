@@ -58,7 +58,7 @@
                 top: 30px;
                 right: 30px;
 
-                visibility: visible;
+                display: block;
 
                 cursor: pointer;
             }
@@ -148,6 +148,11 @@
 @media (max-width: 768px) {
     .container {
         max-width: 540px;
+    }
+    .header {
+        .menu {
+            width: 100%;
+        }
     }
     .shipping {
         &__wrapper {
